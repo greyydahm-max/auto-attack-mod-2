@@ -30,8 +30,8 @@ public class AutoAttackHandler {
 
             // Validate interval config
             if (config.useRandomInterval && config.useCustomInterval) {
-                player.displayClientMessage(
-                        Component.literal("You can only have one interval type set at a time"), true);
+                client.gui.setOverlayMessage(
+        Component.literal("You can only have one interval type set at a time"), false);
                 return;
             }
 
