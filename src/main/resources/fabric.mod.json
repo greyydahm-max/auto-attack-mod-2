@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "toros-auto-attack",
+  "version": "2.0.0",
+  "name": "Toro's Auto Attack",
+  "description": "Mod that allows players to afk while attacking periodically.",
+  "authors": ["torobolin"],
+  "contact": {
+    "website": "https://modrinth.com/project/toros-auto-attack"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/torosautoattack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.torobolin.autoattack.TorosAutoAttackClient"
+    ],
+    "modmenu": [
+      "pl.torobolin.autoattack.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "26.1",
+    "java": ">=25",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "key.category.minecraft.autoattack": "Toro's Auto Attack",
+  "key.autoattack.auto_attack_toggle": "Attack Toggle Key",
+
+  "message.autoattack.auto_attack_on": "Auto attack: ON",
+  "message.autoattack.auto_attack_off": "Auto attack: OFF",
+
+  "text.autoconfig.toros-auto-attack.title": "Toro's Auto Attack Config",
+
+  "text.autoconfig.toros-auto-attack.option.useCustomInterval": "Use custom interval",
+  "text.autoconfig.toros-auto-attack.option.interval": "Interval",
+  "text.autoconfig.toros-auto-attack.option.useRandomInterval": "Use random interval",
+  "text.autoconfig.toros-auto-attack.option.minRandomInterval": "Minimum random interval",
+  "text.autoconfig.toros-auto-attack.option.maxRandomInterval": "Maximum random interval",
+
+  "text.autoconfig.toros-auto-attack.option.attackOnlyLivingEntities": "Attack only living entites",
+  "text.autoconfig.toros-auto-attack.option.attackOnlyLivingEntities.@Tooltip[0]": "Disables attacking entities such as:",
+  "text.autoconfig.toros-auto-attack.option.attackOnlyLivingEntities.@Tooltip[1]": "end crystals, minecarts, item frames etc.",
+
+  "text.autoconfig.toros-auto-attack.option.autoAttackType": "Auto attack type",
+  "text.autoconfig.toros-auto-attack.enum.autoAttackType.sword": "Sword",
+  "text.autoconfig.toros-auto-attack.enum.autoAttackType.axe": "Axe",
+  "text.autoconfig.toros-auto-attack.enum.autoAttackType.both": "Both",
+  "text.autoconfig.toros-auto-attack.enum.autoAttackType.all": "All",
+  "text.autoconfig.toros-auto-attack.option.autoAttackType.@Tooltip[0]": "Sword - attacks only when holding a sword",
+  "text.autoconfig.toros-auto-attack.option.autoAttackType.@Tooltip[1]": "Axe - attacks only when holding an axe",
+  "text.autoconfig.toros-auto-attack.option.autoAttackType.@Tooltip[2]": "Both - attacks only when holding a sword or an axe",
+  "text.autoconfig.toros-auto-attack.option.autoAttackType.@Tooltip[3]": "All - attacks with whatever item a player is holding",
+
+  "text.autoconfig.toros-auto-attack.option.sendToggleMessages": "Send toggle messages",
+  "text.autoconfig.toros-auto-attack.option.showMessagesInActionBar": "Show messages in action bar",
+
+  "text.autoconfig.toros-auto-attack.option.attackPassiveEntities": "Attack passive entities"
+}
